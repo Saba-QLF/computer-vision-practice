@@ -33,6 +33,6 @@ plt.imshow(image_copy, cmap='gray')
 plt.show()
 
 # Saving an image
-plt.imsave(r'F:\computer-vision-area\practices\albert-einstein_gray-02.jpg',
+plt.imsave(r'F:\computer-vision-area\practices\data\albert-einstein_gray-02.jpg',
            image_copy, cmap='gray')
 

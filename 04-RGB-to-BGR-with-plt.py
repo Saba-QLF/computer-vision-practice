@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = plt.imread(r'F:\computer-vision-area\practices\rgb-01.jpg')
+image = plt.imread(r'F:\computer-vision-area\practices\data\rgb-01.jpg')
 im_copy = image.copy()
 
 r = im_copy[:, :, 0]
