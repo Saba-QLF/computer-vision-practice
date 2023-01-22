@@ -37,7 +37,7 @@ def f_rgb_to_hsv(r, g, b, scale_factor):
 print(100, 200, 50, 100)
 
 # but opencv does it for us easily
-im = cv2.imread(r'F:\computer-vision-area\practices\data\rgb-01.jpg')
+im = cv2.imread(r'data\rgb-01.jpg')
 
 hsv_im = cv2.cvtColor(im, cv2.COLOR_BGR2HSV)
 cv2.imshow("hsv image", hsv_im)

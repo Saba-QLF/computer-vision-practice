@@ -19,7 +19,7 @@ plt.show()
 print('---------------------------------')
 
 # Part 2
-image = plt.imread(r'F:\computer-vision-area\practices\albert-einstein_gray.jpg')
+image = plt.imread(r'data\albert-einstein_gray.jpg')
 # some images are read-only
 image_copy = image.copy()
 print(image_copy.shape)

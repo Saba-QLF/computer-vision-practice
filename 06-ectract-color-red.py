@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread(r'F:\computer-vision-area\practices\data\rgb-01.jpg')
+image = cv2.imread(r'data\rgb-01.jpg')
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 # we choose a range of colors to extracting:

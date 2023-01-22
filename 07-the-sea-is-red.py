@@ -22,7 +22,7 @@ while vid.isOpened():
     mask = cv2.inRange(hsv, lower_blue, upper_blue)
     frame2 = frame.copy()
     frame2[mask > 0] = (48, 48, 240)
-    out.write(frame2)
+    #out.write(frame2)
     cv2.imshow('frame', frame2)
     if cv2.waitKey(1) == ord('q'):
         break
